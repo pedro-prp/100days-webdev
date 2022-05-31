@@ -24,6 +24,16 @@ th {
     color: white;
 }
 
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.site-header div {
+    padding-left: 30px;
+}
+
 .external-links {
     display: flex;
     justify-content: center;
