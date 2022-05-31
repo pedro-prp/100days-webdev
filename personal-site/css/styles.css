@@ -1,0 +1,44 @@
+body {
+    background-color: #251D3A;
+    font-style: normal;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #E04D01;
+    border-width: 8px;
+    height: 0px;
+    width: 5%;
+}
+
+h1,
+h3 {
+    color: #FF7700;
+    height: 100%;
+}
+
+p,
+li,
+td,
+th {
+    color: white;
+}
+
+.external-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.external-links a {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    border-color: #2A2550;
+    border-width: 10px;
+    border-style: solid;
+}
