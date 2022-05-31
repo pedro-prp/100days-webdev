@@ -26,14 +26,21 @@ th {
 
 .external-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .external-links a {
     background-color: white;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0 200px 0 200px;
+    border-radius: 8%;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.external-links a:hover {
+    background-color: #FF7700;
+    color: white;
 }
 
 .profile-pic img {
